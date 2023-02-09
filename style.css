@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0% ;
+}
+ul{
+    background-color: orange;
+    text-align: center;
+    margin-top: fixed;
+}
+.li1{
+    display: inline-block;
+    margin: 50px ;
+    margin-right:60px;
+    color: black;
+    
+
+}
