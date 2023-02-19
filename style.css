@@ -6,7 +6,9 @@
 ul{
     background-color: orange;
     height: 100px;
-    margin-top: fixed;
+    position: sticky;
+    top: 2px;
+    
 }
 
 img{
@@ -27,15 +29,23 @@ img{
      left: 60px;
 }
 
+
+
 .container{
-    display: inline-block;
-    /* background-color: red; */
-    border: 2px solid green;
-    height: 60vh;
-    width: 50vw;
-    margin-top: 40px;
-    margin-left: 350px; 
-    position: relative;
+    display: flex;
+    margin-top: 90px;
+}
+.cards{
+    width: 300px;
+margin-left: 100px;
+}
+.card-img img{
+    width: 300px;
+    height: 200px;
+}
+button{
+    margin-top: 20px;
+    margin-left: 80px;
 }
 
 
